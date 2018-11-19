@@ -7,15 +7,7 @@ layout: default
         <div class="hero-content">
             <h1>CODE DANGEROUSLY</h1>
             <ul class="social-list">
-                <li>
-                    <a class="social-link" href="http://example.com/">Fb</a>
-                </li>
-                <li>
-                    <a class="social-link" href="http://example.com/">Tw</a>
-                </li>
-                <li>
-                    <a class="social-link" href="http://example.com/">Gh</a>
-                </li>
+                {% include social-links.html %}
             </ul>
         </div>
     </div>
@@ -62,8 +54,10 @@ layout: default
                 </h2>
                 <div class="post-byline">
                     <img src="{{ site.posts.first.gravatar }}">
-                    <a href="{{ site.posts.first.authorTwitter }}"
-                       class="social-link">Tw</a>
+                    <a class="social-link"
+                       href="{{ site.posts.first.authorTwitter }}">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                     by: {{ site.posts.first.author }}
                     <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
                 </div>
@@ -88,7 +82,7 @@ layout: default
                 <img src="http://placekitten.com/g/400/400">
                 <h3>Michael Hartl</h3>
                 <a class="social-link" href="http://twitter.com/mhartl">
-                    Tw
+                    <i class="fab fa-twitter"></i>
                 </a>
                 <div class="bio-copy">
                     <p>
@@ -112,7 +106,7 @@ layout: default
                 <img src="http://placekitten.com/g/400/400">
                 <h3>Lee Donahoe</h3>
                 <a class="social-link" href="https://twitter.com/leedonahoe">
-                    Tw
+                    <i class="fab fa-twitter"></i>
                 </a>
                 <div class="bio-copy">
                     <p>
@@ -127,7 +121,7 @@ layout: default
                 <img src="http://placekitten.com/g/400/400">
                 <h3>Nick Merwin</h3>
                 <a class="social-link" href="https://twitter.com/nickmerwin">
-                    Tw
+                    <i class="fab fa-twitter"></i>
                 </a>
                 <div class="bio-copy">
                     <p>
