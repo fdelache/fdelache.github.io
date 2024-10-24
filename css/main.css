@@ -378,8 +378,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .hero-home {
-    background-image: url(/images/shark.jpg);
-    background-position: center top;
+    background-image: url(/images/automn.jpg);
+    background-position: center center;
 }
 
 .hero-content {
@@ -673,7 +673,7 @@ h1,h2,h3,h4,h5,h6 {
     .show-mobile-menu {
         display: block;
         float: right;
-        margin-top: 1.5vh
+        margin-top: 1.5vh;
         padding: 1.5em;
         position: relative;
     }
