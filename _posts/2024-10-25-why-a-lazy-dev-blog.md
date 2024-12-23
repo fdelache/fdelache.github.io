@@ -5,6 +5,7 @@ postHero: /images/automn.webp
 author: Franck
 authorBluesky: https://bsky.app/profile/franck.isalazy.dev
 gravatar: https://gravatar.com/avatar/3b7898bd27b4e323233d647c63e4d87e?size=150
+gravatarAlt: Profile picture of Franck Delache
 postFooter: 
 ---
 
