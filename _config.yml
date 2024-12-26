@@ -1,2 +1,6 @@
+title: I`m a Lazy Dev
+description: Blog of a lazy dev. Mostly around the Ruby programing language.
+url: https://franck.isalazy.dev
+
 plugins:
   - jekyll-feed
