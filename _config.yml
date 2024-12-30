@@ -1,6 +1,11 @@
-title: I`m a Lazy Dev
+title: I'm a Lazy Dev
+tagline: Thoughts and notes of a lazy dev
 description: Blog of a lazy dev. Mostly around the Ruby programing language.
 url: https://franck.isalazy.dev
+author: Franck Delache
+logo: images/logo.webp
+image: https://gravatar.com/avatar/3b7898bd27b4e323233d647c63e4d87e?size=150
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag

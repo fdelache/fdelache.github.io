@@ -1,18 +1,4 @@
 <head>
-    {% if page.title %}
-        <title>{{ page.title }}</title>
-        <meta property="og:title" content="{{ page.title }}" />
-    {% else %}
-        <title>Test Page: Don't Panic</title>
-        <meta property="og:title" content="Test Page: Don't Panic" />
-    {% endif %}
-    {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        <meta property="og:description" content="{{ page.description }}" />
-    {% else %}
-        <meta name="description" content="This is a dangerous site.">
-        <meta property="og:description" content="This is a dangerous site." />
-    {% endif %}
     {% if page.hero %}
         <meta property="og:image" content="{{ page.hero }}" />
     {% else %}
@@ -27,4 +13,6 @@
     <link href="/css/reset.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
     <link href="/css/monokai.css" rel="stylesheet">
+
+    {% seo %}
 </head>
