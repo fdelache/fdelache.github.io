@@ -9,3 +9,4 @@ image: https://gravatar.com/avatar/3b7898bd27b4e323233d647c63e4d87e?size=150
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-spaceship
