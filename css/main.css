@@ -763,3 +763,17 @@ ul {
 div.highlight {
     padding: 0.5em;
 }
+
+.blog-links ~ .blog-links {
+    border-top: 1px dotted rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.blog-links .link-header {
+    font-size: 0.8rem;
+}
+
+.link-header {
+    margin-bottom: 1.5em;
+}
