@@ -18,6 +18,12 @@ layout: default
                     </a>
                     by: {{ page.author }}
                     <span> - {{ page.date | date: '%B %d, %Y' }}</span>
+                    <span class="ert">
+                         -
+                        {% assign words = page.content | strip_html | number_of_words %}
+                        {% assign ert = words | divided_by:250 | at_least: 1 %}
+                        {{words}} words - {{ ert }} minute{% if ert != 1 %}s{% endif %} read
+                    </span>
                 </div>
         </header>
         <aside class="post-aside">
