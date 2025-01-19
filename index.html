@@ -42,7 +42,7 @@ description: Blog about being a lazy dev
                         {{ site.posts.first.title }}</a>
                 </h2>
                 <div class="post-byline">
-                    <img src="{{ site.posts.first.gravatar }}"  alt="{{ site.posts.first.gravatarAlt }}">
+                    <img src="{{ site.posts.first.gravatar.path }}"  alt="{{ site.posts.first.gravatar.alt }}">
                     <a class="social-link"
                        href="{{ site.posts.first.authorBluesky }}"
                        aria-label="Bluesky">
@@ -56,7 +56,8 @@ description: Blog about being a lazy dev
                 </div>
             </header>
             <div class="posts-image"
-                 style="background-image:url({{ site.posts.first.image }})"></div>
+                 aria-label="{{ site.posts.first.image.alt }}"
+                 style="background-image:url({{ site.posts.first.image.path }})"></div>
             {{ site.posts.first.excerpt }}
         </div>
     </div>

@@ -4,9 +4,12 @@ categories: ruby
 tags: ruby memory
 author: Franck
 authorBluesky: https://bsky.app/profile/franck.isalazy.dev
-image: /images/snow-fall.webp
-gravatar: https://gravatar.com/avatar/3b7898bd27b4e323233d647c63e4d87e?size=150
-gravatarAlt: Profile picture of Franck Delache
+image:
+  path: /images/snow-fall.webp
+  alt: Some christmas trees with white snow on the ground. We can see one country ski track.
+gravatar:
+  path: https://gravatar.com/avatar/3b7898bd27b4e323233d647c63e4d87e?size=150
+  alt: Profile picture of Franck Delache
 postFooter:
 ---
 
