@@ -1,12 +1,13 @@
 ---
 title: How Ruby Objects are represented in memory?
-categories: [ruby, memory, internals]
+categories: ruby
+tags: ruby memory
 author: Franck
 authorBluesky: https://bsky.app/profile/franck.isalazy.dev
 image: /images/snow-fall.webp
 gravatar: https://gravatar.com/avatar/3b7898bd27b4e323233d647c63e4d87e?size=150
 gravatarAlt: Profile picture of Franck Delache
-postFooter: 
+postFooter:
 ---
 
 I recently spent some time exploring the Ruby VM internals to better understand how the virtual machine works under the hood. As a Ruby developer, the sole existence of the VM is very convenient: no need to worry about memory management, it’s all done by the VM. But how does it actually work? In this post, we’ll discover how the virtual machine keeps Objects in memory.

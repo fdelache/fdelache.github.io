@@ -1,6 +1,6 @@
 ---
 title: How to ask questions to your your leadership team without getting fired?
-categories: [communication, leadership]
+tags: communication leadership
 author: Franck
 authorBluesky: https://bsky.app/profile/franck.isalazy.dev
 image: /images/snow-fall.webp
